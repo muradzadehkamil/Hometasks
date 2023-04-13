@@ -1,0 +1,17 @@
+.form2{
+    width: 320px;
+    height: auto;
+    border: 7px solid rgb(255, 102, 65);
+    padding: 30px;
+    margin-left: 50px;
+    box-shadow: 10px 10px blue;   
+}
+
+.Name, .Email, .Password{
+    width: 250px;
+  height: 30px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
