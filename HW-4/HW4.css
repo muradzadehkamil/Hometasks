@@ -1,0 +1,51 @@
+.bigbox {
+  position: relative;
+  width: 1000px;
+  height: 600px;
+  background-color: #ebebf3;
+  margin: 15px;
+}
+
+.smallcircle {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-color: #f161a3;
+  border-radius: 50%;
+  top: 100px;
+  left: 150px;
+}
+
+.bigcirle {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  background-color: #fa7c64;
+  border-radius: 50%;
+  bottom: 100px;
+  right: 150px;
+}
+
+.form {
+  position: absolute;
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+  height: 350px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+p {
+  font-size: small;
+}
+button {
+  margin-top: 15px;
+  margin-left: 15px;
+  width: 250px;
+  height: 30px;
+  background-color: rgb(230, 82, 82);
+  border-radius: 5px;
+  cursor: pointer;
+}
