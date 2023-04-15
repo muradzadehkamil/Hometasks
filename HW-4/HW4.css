@@ -8,22 +8,22 @@
 
 .smallcircle {
   position: absolute;
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   background-color: #f161a3;
   border-radius: 50%;
-  top: 100px;
-  left: 150px;
+  top: 10px;
+  left: 100px;
 }
 
 .bigcirle {
   position: absolute;
-  width: 250px;
-  height: 250px;
+  width: 400px;
+  height: 400px;
   background-color: #fa7c64;
   border-radius: 50%;
-  bottom: 100px;
-  right: 150px;
+  bottom: 10px;
+  right: 100px;
 }
 
 .form {
@@ -31,7 +31,7 @@
   background-color: white;
   padding: 30px;
   border-radius: 20px;
-  height: 350px;
+  height: 400px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -41,10 +41,10 @@ p {
   font-size: small;
 }
 button {
-  margin-top: 15px;
+  margin-top: 25px;
   margin-left: 15px;
   width: 250px;
-  height: 30px;
+  height: 40px;
   background-color: rgb(230, 82, 82);
   border-radius: 5px;
   cursor: pointer;
