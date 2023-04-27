@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1320px;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+ul {
+  list-style: none;
+}
+
+.header {
+  width: 100%;
+  height: 90vh;
+  background-color: #155bd5;
+}
+
+.header .navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.menu ul li {
+  display: inline-block;
+  cursor: pointer;
+  padding-right: 50px;
+}
+
+.text1 h1 {
+  color: white;
+  font-size: 3pc;
+}
+
+.text1 p {
+  color: whitesmoke;
+}
+
+.home-context {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+
+.picture1 img {
+  width: 600px;
+  height: 450px;
+}
+
+.Get_Started {
+  width: 200px;
+  height: 50px;
+  color: blue;
+  background-color: white;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+}
+
+.play-button {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  margin-left: 30px;
+}
+
+.play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 15px solid blue;
+}
+
+.ourhistory {
+  display: flex;
+  align-items: center;
+}
+
+.ourhistory_container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 200px;
+  align-items: center;
+}
+
+.ourhistory h5 {
+  margin-bottom: 10px;
+  font-size: 50px;
+}
+
+
+.picture2 img {
+  width: 600px;
+  height: 500px;
+}
+
+.box1 {
+  width: 600px;
+  height: 70px;
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: gainsboro;
+}
+
+.who_we_are,
+.our_vision,
+.our_history {
+  width: 120px;
+  height: 40px;
+  background-color: white;
+  border: none;
+  margin-top: 15px;
+  margin-left: 20px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 10px;
+  position: relative;
+  font-size: 15px;
+}
+
+.who_we_are:hover {
+  background-color: white;
+  color: blue;
+}
+
+.our_vision:hover {
+  background-color: white;
+  color: blue;
+}
+
+.our_history:hover {
+  background-color: white;
+  color: blue;
+}
+
+.who_we_are:active {
+  background-color: blue;
+  color: white;
+}
+
+.our_history:active {
+  background-color: blue;
+  color: white;
+}
+
+.our_vision:active {
+  background-color: blue;
+  color: white;
+}
+
+.refreshing_desing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+  text-align: center;
+}
+
+.best_services {
+  margin: 20px 0;
+  font-size: 30px;
+}
+
+.services_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.services_btn {
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+  border: solid blue;
+  text-align: center;
+  color: blue;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.icon {
+  width: 400px;
+  height: 350px;
+  background-color: white;
+  border: 2px solid ghostwhite;
+  padding: 40px 30px;
+  border-radius: 10px;
+  margin: 30px;
+}
+
+.icon:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
+
+.icon_header {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 30px;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px blue;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}
