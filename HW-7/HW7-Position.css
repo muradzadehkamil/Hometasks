@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.parent {
+  width: 700px;
+  height: 250px;
+  border: solid 15px #f2fafb;
+  border-radius: 5%;
+  position: relative;
+  top: 250px;
+  left: 25%;
+}
+
+.child_box {
+  width: 670px;
+  height: 220px;
+  background-color: #3556c8;
+  border-radius: 2%;
+  position: relative;
+}
+
+.child_box_description {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.child_box_header {
+  font-size: 25px;
+}
+
+.text {
+  margin: 20px 0px;
+  text-align: center;
+}
+
+label {
+  position: relative;
+}
+
+.email {
+  background-color: #859ad8;
+  width: 300px;
+  height: 30px;
+  border-radius: 30px;
+  border: none;
+}
+
+::placeholder {
+  color: white;
+}
+
+button {
+  position: absolute;
+  right: 15px;
+  top: 0.5px;
+}
+
+button:hover {
+  cursor: pointer;
+}
